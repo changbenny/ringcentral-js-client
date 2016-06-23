@@ -563,7 +563,7 @@ var Client = (function () {
             url: url,
             method: method,
             query: {},
-            body: null
+            body: undefined
         };
         operationParameters.forEach(function (param) {
             if (param.required && !param.default && !options.hasOwnProperty(param.name)) {

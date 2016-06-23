@@ -23,7 +23,7 @@ export class Client {
             url: url,
             method: method,
             query: {},
-            body: null
+            body: undefined
         };
 
         operationParameters.forEach((param)=> {
